@@ -1,0 +1,212 @@
+
+div.container{
+    margin: 20px;
+    width: 800px;
+    height: 1600px;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+/* div.container2{
+
+    margin: 20px;
+    width: 750px;
+    height: 1550px;
+    background-color: rgba(190, 171, 171, 0.527);
+
+} */
+
+/* 1st block css start*/
+div.box1{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
+
+.box1 img{
+    transform: rotate(0deg);
+    width: 100%;
+
+
+}
+
+div.link{
+    position: relative;
+    top: -450px;
+    left: 200px;
+    transform: translate(50px 50px);
+}
+.link a{
+    color: ghostwhite;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: calc(0.6s);
+}
+.link a:hover{
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-transform: capitalize;
+    color: red;
+    text-shadow: 2px 2px 5px whitesmoke;
+
+}
+
+.text1 span:hover{
+    text-shadow: 3px 3px 5px lawngreen;
+    transform:translateY(10px);
+    
+}
+
+.text1 span{
+    transition: calc(0.5s);
+    margin-bottom:20px;
+    text-align: center;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: ghostwhite;
+    text-shadow: 1px 6px red;
+}
+
+
+
+button{
+    box-shadow: 2px 2px 5px black;
+    height: 40px;
+    width: 150px;
+    text-transform: capitalize;
+    background-color: coral;
+    font-size: 20px;
+    font-weight:bolder;    transition: calc(.3s);
+    border-radius: 10px 10px 10px 10px;
+}
+button:hover{
+    box-shadow: 2px 2px 5px white;
+    border: 2px solid rgb(202, 190, 190);
+    color: red;
+    background-color: whitesmoke;
+
+}
+div.text1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50px, -400px);
+}
+
+.text1 p{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: tomato;
+
+}
+/* .text1 span{
+    font-size: 35px;
+    color: ghostwhite;
+    text-shadow: 1px 6px red;
+} */
+
+/* block 2 css start*/
+
+div.block2{
+    width: 700px;
+    
+}
+
+/* left box css start*/
+
+div.leftbox{
+    text-align: center;
+    width: 300px;
+    height:600px ;
+    /* border: 3px solid red; */
+    float: left;
+    background-color: coral;
+}
+div.text3{
+    margin-top: 280px;
+    text-transform: uppercase ;
+}
+.text3 p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+/*right box css start*/
+div.rightbox{
+    height: 500px;
+    width: 400px;
+    float: right;
+}
+
+.rightbox img{
+    width: 400px;
+    height: 533.9px;
+    margin-top: 66px;
+}
+
+.rightbox h1{
+    width: 250px;
+    color: ghostwhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    /* background-color: red; */
+    display: flexbox;
+    font-weight: bolder;
+    transition: calc(1s);
+}
+.rightbox h1:hover{
+    color: red;
+    transform: translateY(5px);
+    
+}
+
+/* .rightbox img:hover{
+    transform: translateY(5px);
+    transition: calc(0.5s);
+    overflow:
+} */
+
+div.text2{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+
+    color: white;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    transform: translate(30px, -300px);
+}
+
+/* 3rd block css start*/
+
+div.box2{
+    width: 700px;
+    height: 500px;
+    background-color: maroon;
+    text-align: center;
+    /* border: 3px solid; */
+    float: left;
+}
+.box2 img{
+    transition: calc(0.5s);
+    width: 80%;
+    border-radius: 40px 40px 40px 40px;
+}
+.box2 img:hover{
+    transform: translateY(5px);
+    
+}
+.box2 h2{
+    text-transform: uppercase;
+    color: coral;
+}
